@@ -1,52 +1,74 @@
-# Assignment 1 - Multi-Locator Challenge
+# Assignment 1 – Multi-Locator Challenge
+
+## Module
+M1 – Automation with Selenium
+
+## Experiment Title
+Multi-Locator Challenge
 
 ## Problem Statement
+Automate the form available on the Test Automation Practice website using different Selenium locator strategies.
 
-Automate the login functionality of a web application using different Selenium locator strategies.
+The original assignment specifies a login-page scenario. Since the Test Automation Practice website is being used as the common practice environment, the same locator concepts are demonstrated using the available form elements.
 
 ## Objective
 
-To demonstrate the use of multiple Selenium locator strategies:
-- By.ID
-- By.NAME
-- By.XPATH
+- Understand Selenium locators.
+- Use different locator strategies to identify web elements.
+- Enter data into input fields.
+- Select a radio button.
+- Verify the entered data and selected state.
 
-and verify successful navigation after login.
+## Tools / Software
 
-## Application Used
+- Python
+- Selenium WebDriver
+- Chrome Browser
+- WebDriver Manager
+- Test Automation Practice website
 
-SauceDemo
+## Locator Strategies Used
 
-## Locator Requirements
+1. By.ID
+2. By.NAME
+3. By.XPATH
 
-| Element | Locator Strategy |
-|---|---|
-| Username | By.ID |
-| Password | By.NAME |
-| Login Button | By.XPATH |
+## Implementation
 
-## Expected Result
+The automation script performs the following steps:
 
-After successful login, the URL should contain:
-
-`/inventory.html`
+1. Launches Chrome browser.
+2. Opens the Test Automation Practice website.
+3. Locates the Name field using ID.
+4. Enters the name.
+5. Locates the Email field using ID.
+6. Enters the email address.
+7. Locates the Male radio button using XPath.
+8. Selects the radio button.
+9. Verifies the entered values.
+10. Verifies that the radio button is selected.
+11. Closes the browser.
 
 ## Source Code
 
-The Selenium Python implementation for this assignment is stored in this folder.
+See `assignment1.py`.
 
-## Output
+## Expected Output
 
-Output screenshots will be added after successful execution.
+The console should display:
+
+Name: Arpan
+Email: arpan@example.com
+Male selected: True
 
 ## Result
 
-To be updated after execution.
+The form elements were successfully identified and interacted with using multiple Selenium locator strategies.
 
 ## Observation
 
-To be updated after execution.
+Different locator strategies can be used depending on the attributes and structure of the web element.
 
 ## Conclusion
 
-To be updated after execution.
+The experiment successfully demonstrates the use of ID, NAME and XPath locators in Selenium Python automation.
