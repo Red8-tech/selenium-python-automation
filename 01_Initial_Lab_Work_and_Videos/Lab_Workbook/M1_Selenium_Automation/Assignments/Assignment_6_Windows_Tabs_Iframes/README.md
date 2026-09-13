@@ -123,6 +123,9 @@ Selenium then switches back to the original window.
 
 ## Source Code
 
+The complete Selenium implementation is available in:
+```assignment6.py```
+
 ## Output
 
 The program successfully produced output similar to:
