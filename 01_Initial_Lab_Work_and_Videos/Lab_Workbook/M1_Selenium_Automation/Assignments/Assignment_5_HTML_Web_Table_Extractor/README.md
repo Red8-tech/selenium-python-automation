@@ -1,14 +1,14 @@
 # Assignment 5 – HTML Web Table Extractor
 
-## 1. Module Name
+## Module Name
 
 M1 – Automation with Selenium
 
-## 2. Experiment Title
+## Experiment Title
 
 HTML Web Table Extractor
 
-## 3. Problem Statement
+## Problem Statement
 
 Automate the extraction of data from an HTML web table using Selenium WebDriver.
 
@@ -19,7 +19,7 @@ The task is to:
 - Find a particular book by its name.
 - Retrieve the corresponding price.
 
-## 4. Objective
+## Objective
 
 To learn how to:
 - Locate HTML tables using XPath.
@@ -29,14 +29,14 @@ To learn how to:
 - Search for a specific row.
 - Retrieve data from a particular column.
 
-## 5. Website Used
+## Website Used
 
 Test Automation Practice
 
 URL:
 https://testautomationpractice.blogspot.com/
 
-## 6. Tools and Technologies
+## Tools and Technologies
 
 - Python
 - Selenium WebDriver
@@ -45,7 +45,7 @@ https://testautomationpractice.blogspot.com/
 - XPath
 - HTML Tables
 
-## 7. Implementation
+## Implementation
 
 ### Step 1 – Open the Website
 
@@ -93,12 +93,12 @@ columns[3].text
 The retrieved price is:
 3000
 
-## 8. Source Code
+## Source Code
 
 The complete implementation is available in:
 ```assignment5.py```
 
-## 9. Output
+## Output
 
 The program successfully extracted the table data and retrieved the price of the selected book.
 
@@ -116,12 +116,12 @@ Master In JS | Amit | Javascript | 1000 |
 Book: Master In Selenium
 Price: 3000
 
-## 10. Result
+## Result
 
 The HTML web table was successfully located and its rows and columns were extracted using Selenium WebDriver.
 The required book, Master In Selenium, was successfully located and its price, 3000, was retrieved.
 
-## 11. Observation
+## Observation
 
 1. Selenium can locate HTML table elements using XPath.
 2. find_elements() can be used to retrieve multiple table rows.
