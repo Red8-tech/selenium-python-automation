@@ -8,8 +8,6 @@
 
 **JavaScript Alerts and Confirms**
 
----
-
 ## Problem Statement
 
 Automate JavaScript popups using Selenium WebDriver.
@@ -19,8 +17,6 @@ The task is to handle the following types of JavaScript popups:
 1. Alert popup – accept the alert.
 2. Confirm popup – dismiss the confirmation.
 3. Prompt popup – enter text and accept the prompt.
-
----
 
 ## Objective
 
@@ -35,15 +31,11 @@ This experiment demonstrates:
 - Entering text into a prompt using `send_keys()`
 - Accepting a prompt after entering text
 
----
-
 ## Website Used
 
 **Test Automation Practice**
 
 https://testautomationpractice.blogspot.com/
-
----
 
 ## Tools & Technologies
 
@@ -54,8 +46,6 @@ https://testautomationpractice.blogspot.com/
 - XPath
 - JavaScript Alerts
 - Selenium WebElements
-
----
 
 ## JavaScript Popup Types
 
