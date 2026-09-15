@@ -90,6 +90,9 @@ self.driver.quit()
 
 ## Source Code
 
+The complete Selenium implementation is available in:
+```assignment7.py```
+
 ## Output
 The test execution produced:
 
