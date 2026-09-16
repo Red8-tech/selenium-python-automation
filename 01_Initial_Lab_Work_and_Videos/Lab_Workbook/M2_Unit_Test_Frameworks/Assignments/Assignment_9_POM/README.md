@@ -198,6 +198,12 @@ pytest ass_9/tests/test_home_page.py -v -s
 
 ## Source Code
 
+The complete implementation is available in:
+```
+home_page.py
+test_home_page.py
+```
+
 ## Output
 =================== test session starts ====================
 
