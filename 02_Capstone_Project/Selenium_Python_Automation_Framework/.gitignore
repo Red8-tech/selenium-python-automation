@@ -1,0 +1,33 @@
+# Virtual Environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# PyTest
+.pytest_cache/
+
+# Allure
+allure-results/
+allure-report/
+
+# Reports
+reports/
+
+# Screenshots
+screenshots/
+
+# Logs
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
