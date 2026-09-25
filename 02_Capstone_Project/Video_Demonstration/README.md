@@ -33,4 +33,4 @@ https://tutorialsninja.com/demo/
 
 ### Author
 **Arpan Mukherjee**  
-B.Tech Computer Science Engineering
+B.Tech Computer Science Engineering (IOT, CS, BT)
